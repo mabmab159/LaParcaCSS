@@ -1,0 +1,166 @@
+:root {
+    --fondo: #2A1D39;
+    --color1: #524066;
+    --color2: #463657;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fondo {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--fondo);
+}
+
+.arte-total {
+    position: sticky;
+    top: calc(100vh - 405px);
+}
+
+.cuerpo-sombra {
+    position: relative;
+    top: 205px;
+    left: calc(50vw - 95px);
+    background-color: var(--color2);
+    height: 200px;
+    width: 180px;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.cuerpo {
+    position: relative;
+    background-color: var(--color1);
+    height: 190px;
+    width: 120px;
+    top: 10px;
+    left: 50px;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.cabeza-sombra {
+    background-color: var(--color2);
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 125px;
+    left: calc(50vw - 60px);
+    border-radius: 25px 25px 120px 25px;
+    transform: rotate(45grad);
+    z-index: 1;
+}
+
+.cabeza {
+    background-color: var(--color1);
+    position: absolute;
+    top: 10px;
+    width: 110px;
+    height: 110px;
+    border-radius: 25px 25px 120px 25px;
+    z-index: 2;
+}
+
+.cabeza-negra {
+    background-color: #1B1225;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 75px;
+    height: 75px;
+    border-radius: 1px 25px 75px 25px;
+    z-index: 2;
+}
+
+.brazo {
+    position: relative;
+    height: 80px;
+    width: 50px;
+    top: 150px;
+    left: calc(50vw - 85px);
+    border-radius: 50%;
+    background-color: black;
+}
+
+.dedo-1 {
+    background-color: white;
+    height: 15px;
+    width: 3px;
+    position: relative;
+    left: 10px;
+    top: -15px;
+}
+
+.dedo-2,
+.dedo-3,
+.dedo-4,
+.dedo-5 {
+    display: flex;
+}
+
+.parte1 {
+    background-color: white;
+    height: 5px;
+    width: 7px;
+    position: relative;
+    left: 8px;
+    top: -15px;
+    margin-top: 5px;
+    margin-right: 1px;
+}
+
+.parte2 {
+    background-color: white;
+    height: 5px;
+    width: 10px;
+    position: relative;
+    left: 8px;
+    top: -15px;
+    margin-top: 5px;
+    margin-right: 1px;
+}
+
+.parte3 {
+    background-color: white;
+    height: 5px;
+    width: 7px;
+    position: relative;
+    left: 8px;
+    top: -15px;
+    margin-top: 5px;
+}
+
+.mango {
+    background-color: #612F12;
+    height: 330px;
+    width: 7px;
+    position: absolute;
+    top: -270px;
+    left: 13px;
+    box-shadow: 7px 0px 0px 0px #90471C;
+}
+
+.filo {
+    background-color: transparent;
+    height: 120px;
+    width: 200px;
+    position: absolute;
+    top: -270px;
+    left: 10px;
+    box-shadow: 0px -14px 0px 0px gray;
+    border-radius: 0px 120px 0px 0px;
+    z-index: 1;
+}
+
+.filo-2 {
+    background-color: transparent;
+    height: 140px;
+    width: 200px;
+    position: absolute;
+    top: -270px;
+    left: 10px;
+    box-shadow: 0px -28px 0px 0px white;
+    border-radius: 0px 120px 20px 0px;
+}
